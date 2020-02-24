@@ -1,0 +1,37 @@
+body {
+  background-color: #fef6fb;
+  font-family: 'Muli';
+  color: #e6b2c6;
+}
+
+h1 {
+  font-weight: 700;
+  display: block;
+  text-align: center;
+}
+
+form {
+  display: block;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  label {
+    display: inline;
+  }
+
+  input {
+    width: 50%;
+    display: inline-block;
+  }
+
+}
