@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
   <title>Museum Member</title>
-
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <link rel="stylesheet" media="screen" href="css/normalize_reset.css">
   <link rel="stylesheet" media="screen" href="css/style.css">
+  <script src="js/main.js"></script>
 
 </head>
 <body>
@@ -34,10 +35,12 @@
         <input type="text" id="date-b" name="user_date-b" placeholder="mm/dd/yyyy">
       </li>
       <li>
-        <input class="button" type="submit" value="Create Account">
+        <input class="button" type="submit" value="Create Account" onclick="myFunction()">
       </li>
     </ul>
   </form>
+
+  <p id="demo"></p>
 </div>
 </body>
 </html>
