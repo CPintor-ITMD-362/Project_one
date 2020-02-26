@@ -2,26 +2,26 @@ body {
   background-color: #fef6fb;
   font-family: 'Muli', 'sans-serif';
   color: #e6b2c6;
-  margin: 1em;
-  line-height: 2.0em;
+  margin: 1em; /* 16px */
+  line-height: 2.0em; /* 25.6 */
 }
 
 .container {
-  margin: .8em;
+  margin: .8em; /* 12.8px */
   text-align: center;
 }
 
 h1 {
   font-weight: 700;
   display: block;
-  font-size: 1.8em;
+  font-size: 1.8em; /* 28.8px */
   color: #d77fa1;;
 }
 
 h2 {
   font-weight: 700;
   display: block;
-  font-size: 1.5em;
+  font-size: 1.5em; /* 24px */
 }
 
 form {
@@ -34,7 +34,7 @@ input {
 
 label {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.5em; /* 24px */
   color: #d77fa1;
 }
 
@@ -42,17 +42,17 @@ label {
     background-color: #d77fa1;
     border: none;
     color: #fef6fb;
-    padding: .6em 1.2em;
+    padding: .6em 1.2em; /* 14.4px 19.2px */
     text-decoration: none;
     display: inline-block;
-    font-size: 1.5em;
-    margin: .8em;
+    font-size: 1.5em; /* 24px */
+    margin: .8em; /* 12.8px */
 }
 
 @media screen and (min-width: 768px) {
   label {
     display: inline;
-    font-size: 1.2em;
+    font-size: 1.2em; /* 19.2px */
   }
 
   input {
@@ -64,30 +64,30 @@ label {
     background-color: #d77fa1;
     border: none;
     color: #fef6fb;
-    padding: .8em .8em;
+    padding: .8em .8em; /* 12.8px 12.8px */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
-    margin: .8em;
+    font-size: 1em; /* 16px */
+    margin: .8em; /* 12.8px */
   }
 }
 
 @media screen and (min-width: 900px) {
   label {
     display: inline;
-    font-size: 1em;
+    font-size: 1em; /* 16px */
   }
 
   .button {
     background-color: #d77fa1;
     border: none;
     color: #fef6fb;
-    padding: .8em .8em;
+    padding: .8em .8em; /* 12.8px 12.8px */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
-    margin: .8em;
+    font-size: 1em; /* 16px */
+    margin: .8em; /* 12.8px */
   }
 }
