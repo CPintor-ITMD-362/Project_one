@@ -16,7 +16,7 @@
     <h1>Register to the Virtual Art Museum open-source project</h1>
   </div>
 <div class="container">
-  <form action="#null" method="GET">
+  <form name="registration" action="#null" method="GET" onsubmit="return validate()">
     <ul>
       <li>
         <label for="username">Username:</label>
@@ -35,7 +35,7 @@
         <input type="text" id="date-b" name="user_date-b" placeholder="mm/dd/yyyy">
       </li>
       <li>
-        <input class="button" type="submit" value="Create account" onclick="messageFunction()">
+        <input class="button" type="submit" value="Create account" onclick="validate()">
       </li>
     </ul>
   </form>
