@@ -1,6 +1,6 @@
 body {
   background-color: #fef6fb;
-  font-family: 'Muli';
+  font-family: 'Muli', 'sans-serif';
   color: #e6b2c6;
   margin: 1em;
   line-height: 2.0em;
@@ -8,19 +8,24 @@ body {
 
 .container {
   margin: .8em;
+  text-align: center;
 }
 
 h1 {
   font-weight: 700;
   display: block;
-  text-align: center;
   font-size: 1.8em;
   color: #d77fa1;;
 }
 
+h2 {
+  font-weight: 700;
+  display: block;
+  font-size: 1.5em;
+}
+
 form {
   display: block;
-  text-align: center;
 }
 
 input {
@@ -29,7 +34,6 @@ input {
 
 label {
   display: block;
-  text-align: center;
   font-size: 1.5em;
   color: #d77fa1;
 }
@@ -39,7 +43,6 @@ label {
     border: none;
     color: #fef6fb;
     padding: .6em 1.2em;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.5em;
@@ -49,7 +52,7 @@ label {
 @media screen and (min-width: 768px) {
   label {
     display: inline;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   input {
@@ -61,12 +64,30 @@ label {
     background-color: #d77fa1;
     border: none;
     color: #fef6fb;
-    padding: .2em .8em;
+    padding: .8em .8em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1em;
     margin: .8em;
+  }
 }
 
+@media screen and (min-width: 900px) {
+  label {
+    display: inline;
+    font-size: 1em;
+  }
+
+  .button {
+    background-color: #d77fa1;
+    border: none;
+    color: #fef6fb;
+    padding: .8em .8em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: .8em;
+  }
 }
