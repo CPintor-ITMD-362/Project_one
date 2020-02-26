@@ -4,6 +4,6 @@ function validate() {
     alert("Plese fill out the form!");
     return false;
   } else {
-    document.getElementById("output").innerHTML = "Congrats, you've registered!";
+    document.getElementById("output").innerHTML = "<h2>Congrats, you've registered!</h2>";
   }
 }
