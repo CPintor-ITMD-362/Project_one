@@ -3,11 +3,16 @@ body {
   font-family: 'Muli', 'sans-serif';
   color: #e6b2c6;
   margin: 1em; /* 16px */
-  line-height: 2.0em; /* 25.6 */
+  line-height: 2.0em; /* 25.6px */
 }
 
 .header {
-  background-color: antiquewhite;
+  background-color: #e6b2c6;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.8em; /* 28.8px */
+  padding: .8em;
+  font-weight: 700;
 }
 
 .container {
@@ -15,7 +20,7 @@ body {
   text-align: center;
 }
 
-h1 {
+.container > h1 {
   font-weight: 700;
   display: block;
   font-size: 1.8em; /* 28.8px */
