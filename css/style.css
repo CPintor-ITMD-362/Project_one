@@ -11,7 +11,7 @@ body {
   text-align: left;
   font-size: 1.8em; /* 28.8px */
   font-weight: 700;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: .3em .3em .4em rgb(218, 218, 218);
 }
 
 .menu {
