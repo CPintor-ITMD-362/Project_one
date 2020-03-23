@@ -1,5 +1,5 @@
 body {
-  background-color: #ac4484;
+  background-color: #fef6fb;
   font-family: 'Muli', 'sans-serif';
   color: #e6b2c6;
   margin: 1em; /* 16px */
@@ -7,9 +7,9 @@ body {
 }
 
 .header {
-  background-color: #da115e;
+  background-color: #e6b2c6;
   text-align: left;
-  color: #000000;
+  color: #ffffff;
   font-size: 1.8em; /* 28.8px */
   font-weight: 700;
 }
@@ -24,7 +24,7 @@ body {
 .menu > li {
   float: left;
   display: block;
-  color: rgb(0, 0, 0);
+  color: white;
   text-align: center;
   padding: .3em 1em; /* 4.8px 16px */
   text-decoration: none;
