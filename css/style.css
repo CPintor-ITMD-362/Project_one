@@ -6,6 +6,10 @@ body {
   line-height: 2.0em; /* 25.6 */
 }
 
+.header {
+  background-color: antiquewhite;
+}
+
 .container {
   margin: .8em; /* 12.8px */
   text-align: center;
