@@ -11,8 +11,23 @@ body {
   text-align: left;
   color: #ffffff;
   font-size: 1.8em; /* 28.8px */
-  padding: .8em;
   font-weight: 700;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu > li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: .3em 1em; /* 4.8px 16px */
+  text-decoration: none;
 }
 
 .container {
